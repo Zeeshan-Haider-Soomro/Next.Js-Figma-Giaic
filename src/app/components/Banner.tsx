@@ -113,7 +113,7 @@ const Banner = () => {
             plugins using the Extension API..
           </p>
           <button className="bg-[#38F881] rounded w-[150px] p-1">
-            Let's Go
+            Let&apos;s Go
           </button>
         </div>
       </section>
@@ -154,7 +154,7 @@ const Banner = () => {
           <h1 className=" text-[80px] font-semibold">100% Your Data</h1>
           <p className="">
             The app is open source and your notes are saved to an open format,
-            so you'll always have access to them. Uses End-To-End Encryption
+            so you&apos;ll always have access to them. Uses End-To-End Encryption
             (E2EE) to secure your notes and ensure no-one but yourself can
             access them.
           </p>
