@@ -10,7 +10,7 @@ const CardRight = () => {
         </p>
         <hr />
         <div className="flex items-center mt-5">
-          <img src="../images/image (1).png" alt="" />
+          <img src="/images/image (1).png" alt="" />
           <div className="">
             <h1 className=" text-2xl">Oberon Shaw, MCH</h1>
             <p className="text-white">Head of Talent Acquisition, North America</p>

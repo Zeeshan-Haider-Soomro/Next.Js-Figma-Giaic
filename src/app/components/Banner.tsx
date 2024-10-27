@@ -23,7 +23,7 @@ const Banner = () => {
         <div className="w-1/3 flex justify-center items-center">
           <img
             className="h-[320.94px] w-[400px]"
-            src="../images/heroimg.png"
+            src="/images/heroimg.png"
             alt=""
           />
         </div>
@@ -46,7 +46,7 @@ const Banner = () => {
         <div className="w-1/3 flex justify-center items-center">
           <img
             className="h-[320.94px] w-[400px]"
-            src="../images/heroimg.png"
+            src="/images/heroimg.png"
             alt=""
           />
         </div>
@@ -56,7 +56,7 @@ const Banner = () => {
         <div className="w-1/3 flex justify-start items-center">
           <img
             className="h-[320.94px] w-[400px]"
-            src="../images/heroimg.png"
+            src="/images/heroimg.png"
             alt=""
           />
         </div>
@@ -89,7 +89,7 @@ const Banner = () => {
         <div className="w-1/3 flex justify-center items-center">
           <img
             className="h-[320.94px] w-[400px]"
-            src="../images/heroimg.png"
+            src="/images/heroimg.png"
             alt=""
           />
         </div>
@@ -99,7 +99,7 @@ const Banner = () => {
         <div className="w-1/3 flex justify-start items-center">
           <img
             className="h-[320.94px] w-[400px]"
-            src="../images/heroimg.png"
+            src="/images/heroimg.png"
             alt=""
           />
         </div>
@@ -165,7 +165,7 @@ const Banner = () => {
         <div className="w-1/3 flex justify-center items-center">
           <img
             className="h-[320.94px] w-[400px]"
-            src="../images/heroimg.png"
+            src="/images/heroimg.png"
             alt=""
           />
         </div>
@@ -174,10 +174,10 @@ const Banner = () => {
       <section className="text-center m-5 p-5">
         <h1 className="text-black text-[80px] font-bold m-5">Our sponsors</h1>
         <div className="flex justify-around items-center m-10 mt-10">
-          <img src="../images/Logo Apple.png" alt="" />
-          <img src="../images/Logo Microsoft.png" alt="" />
-          <img src="../images/Logo Stack.png" alt="" />
-          <img src="../images/Logo Google.png" alt="" />
+          <img src="/images/Logo Apple.png" alt="" />
+          <img src="/images/Logo Microsoft.png" alt="" />
+          <img src="/images/Logo Stack.png" alt="" />
+          <img src="/images/Logo Google.png" alt="" />
         </div>
       </section>
 
@@ -185,7 +185,7 @@ const Banner = () => {
         <div className="w-1/3 flex justify-start items-center">
           <img
             className="h-[320.94px] w-[400px]"
-            src="../images/heroimg.png"
+            src="/images/heroimg.png"
             alt=""
           />
         </div>
@@ -225,9 +225,9 @@ const Banner = () => {
           </button>
           <p className="text-white">On a big team? Contact sales</p>
           <div className="flex justify-center gap-10 p-5">
-            <img src="../images/Vector (1).png" alt="" />
-            <img src="../images/Vector (2).png" alt="" />
-            <img src="../images/Vector (3).png" alt="" />
+            <img src="/images/Vector (1).png" alt="" />
+            <img src="/images/Vector (2).png" alt="" />
+            <img src="/images/Vector (3).png" alt="" />
           </div>
       </section>
 
