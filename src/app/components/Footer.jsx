@@ -1,80 +1,95 @@
+import React from "react";
 
 const Footer = () => {
   return (
     <div>
-
-<section className="bg-[#222222] text-center leading-10 p-10">
-        <h1 className="text-[#38F881] text-5xl">Try Whitepace today</h1>
-        <p className="text-white">
+      {/* Call-to-Action Section */}
+      <section className="bg-[#222222] text-center p-10">
+        <h1 className="text-[#38F881] text-3xl md:text-5xl font-semibold mb-3">Try Whitepace today</h1>
+        <p className="text-white mb-3 text-sm md:text-base">
           Get started for free. Add your whole team as your needs grow.
         </p>
-        <button className="bg-[#FF4040] rounded w-[150px] p-1">
-          Try Taskey free
+        <button className="bg-[#FF4040] hover:bg-[#ff5f5f] text-white rounded w-[150px] p-2 mb-2">
+          Try Taskey Free
         </button>
-        <p className="text-white">On a big team? Contact sales</p>
-        <div className="flex justify-center gap-10 p-5">
-          <img src="/images/Vector (1).png" alt="" />
-          <img src="/images/Vector (2).png" alt="" />
-          <img src="/images/Vector (3).png" alt="" />
+        <p className="text-white text-sm">On a big team? <a href="#" className="underline">Contact sales</a></p>
+        <div className="flex justify-center gap-5 mt-5">
+          <img src="/images/Vector (1).png" alt="Social Media 1" />
+          <img src="/images/Vector (2).png" alt="Social Media 2" />
+          <img src="/images/Vector (3).png" alt="Social Media 3" />
         </div>
       </section>
 
-        <section className="flex justify-around gap-5 p-5 leading-8 bg-[#222222] text-white">
-        <div className="w-[200px]">
-          <div className="flex gap-3 items-center ">
-            <h1 className="font-bold text-4xl ">SoomroGroup</h1>
+      {/* Footer Links Section */}
+      <section className="bg-[#222222] text-white py-10 px-5 md:px-20">
+        <div className="grid md:grid-cols-5 gap-8">
+          {/* Company Info */}
+          <div className="text-center md:text-left">
+            <h1 className="font-bold text-3xl md:text-4xl">SoomroGroup</h1>
+            <p className="mt-3 text-sm md:text-base">
+              Whitepace was created for the new ways we live and work. We make a better workspace around the world.
+            </p>
           </div>
-          <p>
-            Whitepace was created for the new ways we live and work.We make a
-            better workspace around the world.
-          </p>
-        </div>
-        <div>
-          <h1 className="text-2xl font-semibold">Product</h1>
-          <p>Overview</p>
-          <p>Pricing</p>
-          <p>Customer Stories</p>
-        </div>
-        <div>
-          <h1 className="text-2xl font-semibold">Resources</h1>
-          <p>Blog</p>
-          <p>Guides & tutorials</p>
-          <p>Help center</p>
-        </div>
-        <div>
-          <h1 className="text-2xl font-semibold">Company</h1>
-          <p>About us</p>
-          <p>Careers</p>
-          <p>Media kit</p>
-        </div>
-        <div className="w-[200px]">
-          <h1 className="text-2xl font-semibold">Try it Today</h1>
-          <p>Get started for free. Add your whole team as your needs grow</p>
-          <button className="bg-[#FF4040] text-white rounded w-[150px] p-1">
-            Try Taskey free
-          </button>
+
+          {/* Product Links */}
+          <div>
+            <h1 className="text-lg font-semibold">Product</h1>
+            <ul className="mt-3 space-y-2 text-sm md:text-base">
+              <li>Overview</li>
+              <li>Pricing</li>
+              <li>Customer Stories</li>
+            </ul>
+          </div>
+
+          {/* Resources Links */}
+          <div>
+            <h1 className="text-lg font-semibold">Resources</h1>
+            <ul className="mt-3 space-y-2 text-sm md:text-base">
+              <li>Blog</li>
+              <li>Guides & Tutorials</li>
+              <li>Help Center</li>
+            </ul>
+          </div>
+
+          {/* Company Links */}
+          <div>
+            <h1 className="text-lg font-semibold">Company</h1>
+            <ul className="mt-3 space-y-2 text-sm md:text-base">
+              <li>About Us</li>
+              <li>Careers</li>
+              <li>Media Kit</li>
+            </ul>
+          </div>
+
+          {/* Try It Today Section */}
+          <div className="text-center md:text-left">
+            <h1 className="text-lg font-semibold">Try it Today</h1>
+            <p className="mt-3 text-sm md:text-base">
+              Get started for free. Add your whole team as your needs grow.
+            </p>
+            <button className="bg-[#FF4040] hover:bg-[#ff5f5f] text-white rounded w-[150px] p-2 mt-3">
+              Try Taskey Free
+            </button>
+          </div>
         </div>
       </section>
 
-      <section className="bg-[#222222] text-white p-10">
-        <div className="flex w-2/3 justify-around">
-          <p>English</p>
-          <p>Terms & privacy</p>
-          <p>Security</p>
-          <p>Status</p>
-          <p>@2024 Copyrights Reserved Zeeshan Haider Soomro</p>
-        </div>
-        <div className="w-1/3">
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
+      {/* Bottom Links Section */}
+      <section className="bg-[#222222] text-white py-5 px-5 md:px-20">
+        <div className="flex flex-col md:flex-row items-center justify-between text-sm md:text-base">
+          <div className="flex gap-5 mb-3 md:mb-0">
+            <p>English</p>
+            <p>Terms & Privacy</p>
+            <p>Security</p>
+            <p>Status</p>
+          </div>
+          <p className="text-center md:text-right">
+            &copy; 2024 SoomroGroup. All rights reserved.
+          </p>
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

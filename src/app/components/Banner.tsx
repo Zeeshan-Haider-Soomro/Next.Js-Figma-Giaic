@@ -7,218 +7,118 @@ import CardRight from "./clientCard/CardRight";
 const Banner = () => {
   return (
     <div>
-      <section className="flex justify-around items-center p-10 bg-[#222222]">
-        <div className="flex flex-col gap-5 w-1/2 m-6">
-          <h1 className="text-[#38F881] text-[80px] font-bold">
+      {/* Main Banner Section */}
+      <section className="grid md:grid-cols-2 gap-10 p-10 bg-[#222222] text-center md:text-left items-center">
+        <div className="flex flex-col gap-5">
+          <h1 className="text-[#38F881] text-3xl md:text-6xl font-bold leading-tight">
             Get More Done with Whitepace
           </h1>
-          <p className="text-white">
+          <p className="text-white text-sm md:text-lg">
             Project management software that enables your teams to collaborate,
-            plan, analyze and manage everyday tasks
+            plan, analyze, and manage everyday tasks.
           </p>
-          <button className="bg-[#FF4040] rounded w-[150px] p-1">
+          <button className="bg-[#FF4040] hover:bg-[#ff5f5f] rounded w-40 py-2 text-white text-base">
             Try Whitepace Free
           </button>
         </div>
-        <div className="w-1/3 flex justify-center items-center">
+        <div className="flex justify-center">
           <img
-            className="h-[320.94px] w-[400px]"
+            className="h-40 w-60 md:h-[320px] md:w-[400px]"
             src="/images/heroimg.png"
-            alt=""
+            alt="Hero"
+            loading="lazy"
           />
         </div>
       </section>
 
-      <section className="flex justify-around items-center p-5 bg-[#FFFFFF] m-6">
-        <div className="flex flex-col gap-5 w-1/2">
-          <h1 className="text-black text-[80px] font-bold">
+      {/* Project Management Section */}
+      <section className="grid md:grid-cols-2 gap-10 p-6 bg-white m-6 rounded-lg shadow-lg items-center">
+        <div className="flex flex-col gap-5">
+          <h1 className="text-black text-3xl md:text-6xl font-bold leading-tight">
             Project Management
           </h1>
-          <p className="text-black">
-            Images, videos, PDFs and audio files are supported. Create math
+          <p className="text-black text-sm md:text-lg">
+            Images, videos, PDFs, and audio files are supported. Create math
             expressions and diagrams directly from the app. Take photos with the
             mobile app and save them to a note.
           </p>
-          <button className="bg-[#FF4040] rounded w-[150px] p-1">
+          <button className="bg-[#FF4040] hover:bg-[#ff5f5f] rounded w-40 py-2 text-white">
             Get Started
           </button>
         </div>
-        <div className="w-1/3 flex justify-center items-center">
+        <div className="flex justify-center">
           <img
-            className="h-[320.94px] w-[400px]"
+            className="h-40 w-60 md:h-[320px] md:w-[400px]"
             src="/images/heroimg.png"
-            alt=""
+            alt="Project Management"
+            loading="lazy"
           />
         </div>
       </section>
 
-      <section className="flex justify-around items-center p-5 bg-[#FFFFFF] m-6">
-        <div className="w-1/3 flex justify-start items-center">
+      {/* Work Together Section */}
+      <section className="grid md:grid-cols-2 gap-10 p-6 bg-white m-6 rounded-lg shadow-lg items-center">
+        <div className="order-2 md:order-1 flex justify-center">
           <img
-            className="h-[320.94px] w-[400px]"
+            className="h-40 w-60 md:h-[320px] md:w-[400px]"
             src="/images/heroimg.png"
-            alt=""
+            alt="Work Together"
+            loading="lazy"
           />
         </div>
-        <div className="flex flex-col gap-5 w-1/2">
-          <h1 className="text-black text-[80px] font-bold">Work Together</h1>
-          <p className="text-black">
-            With whitepace, share your notes with your colleagues and
+        <div className="flex flex-col gap-5 order-1 md:order-2">
+          <h1 className="text-black text-3xl md:text-6xl font-bold leading-tight">
+            Work Together
+          </h1>
+          <p className="text-black text-sm md:text-lg">
+            With Whitepace, share your notes with your colleagues and
             collaborate on them. You can also publish a note to the internet and
             share the URL with others.
           </p>
-          <button className="bg-[#38F881] rounded w-[150px] p-1">
+          <button className="bg-[#38F881] hover:bg-[#3af898] rounded w-40 py-2 text-black">
             Try it now
           </button>
         </div>
       </section>
 
-      <section className="flex justify-around items-center p-5 bg-[#222222]">
-        <div className="flex flex-col gap-5 w-1/2 m-6">
-          <h1 className="text-[#38F881] text-[80px] font-bold">
-            Use as Extension
-          </h1>
-          <p className="text-white">
-            Use the web clipper extension, available on Chrome and Firefox, to
-            save web pages or take screenshots as notes.
-          </p>
-          <button className="bg-[#FF4040] rounded w-[150px] p-1">
-            Let&apos;s Go
-          </button>
-        </div>
-        <div className="w-1/3 flex justify-center items-center">
-          <img
-            className="h-[320.94px] w-[400px]"
-            src="/images/heroimg.png"
-            alt=""
-          />
-        </div>
-      </section>
-
-      <section className="flex justify-around items-center p-5 bg-[#FFFFFF] m-6">
-        <div className="w-1/3 flex justify-start items-center">
-          <img
-            className="h-[320.94px] w-[400px]"
-            src="/images/heroimg.png"
-            alt=""
-          />
-        </div>
-        <div className="flex flex-col gap-5 w-1/2">
-          <h1 className="text-black text-[80px] font-bold">
-            Customise it to your needs
-          </h1>
-          <p className="text-black">
-            Customise the app with plugins, custom themes and multiple text
-            editors (Rich Text or Markdown). Or create your own scripts and
-            plugins using the Extension API..
-          </p>
-          <button className="bg-[#38F881] rounded w-[150px] p-1">
-            Let&apos;s Go
-          </button>
-        </div>
-      </section>
-
-      <section className="text-center m-5 p-5">
-        <h1 className="text-black text-[80px] font-bold">Choose Your Plan</h1>
-        <p>
+      {/* Choose Your Plan Section */}
+      <section className="text-center p-8">
+        <h1 className="text-black text-4xl md:text-6xl font-bold mb-5">Choose Your Plan</h1>
+        <p className="text-gray-700 max-w-xl mx-auto">
           Whether you want to get organized, keep your personal life on track,
-          or boost workplace productivity, Evernote has the right plan for you
+          or boost workplace productivity, Evernote has the right plan for you.
         </p>
       </section>
 
-      <section className="flex justify-center items-center m-5 flex-wrap">
+      {/* Card Section */}
+      <section className="flex flex-col md:flex-row justify-center items-center gap-10 m-5 flex-wrap">
         <Card />
         <CardCenter />
         <Card />
       </section>
 
-      <section className="bg-[#222222] p-[50px]">
-        <div className=" text-center w-[70%] m-auto leading-10">
-          <h1 className="text-[#38F881] text-5xl font-semibold">
-            Your work, Everywhere you are
-          </h1>
-          <p className="text-white">
-            Access your notes from your computer, phone or tablet by
-            synchronising with various services, including whitepace, Dropbox
-            and OneDrive. The app is available on Windows, macOS, Linux, Android
-            and iOS. A terminal app is also available!
-          </p>
-          <button className="bg-[#FF4040] text-white py-[2px] rounded px-4">
-            Button
-          </button>
+      {/* Sponsors Section */}
+      <section className="text-center p-8 bg-[#f9f9f9]">
+        <h1 className="text-black text-3xl md:text-5xl font-bold mb-8">Our Sponsors</h1>
+        <div className="flex flex-wrap justify-center gap-8">
+          <img className="h-10" src="/images/Logo Apple.png" alt="Apple" />
+          <img className="h-10" src="/images/Logo Microsoft.png" alt="Microsoft" />
+          <img className="h-10" src="/images/Logo Stack.png" alt="Stack" />
+          <img className="h-10" src="/images/Logo Google.png" alt="Google" />
         </div>
       </section>
 
-      <section className="flex justify-around items-center p-5 bg-[#FFFFFF] ">
-        <div className="flex flex-col gap-5 w-1/2 m-6">
-          <h1 className=" text-[80px] font-semibold">100% Your Data</h1>
-          <p className="">
-            The app is open source and your notes are saved to an open format,
-            so you&apos;ll always have access to them. Uses End-To-End
-            Encryption (E2EE) to secure your notes and ensure no-one but
-            yourself can access them.
-          </p>
-          <button className="bg-[#FF4040] rounded w-[150px] p-1 text-white">
-            Read more
-          </button>
-        </div>
-        <div className="w-1/3 flex justify-center items-center">
-          <img
-            className="h-[320.94px] w-[400px]"
-            src="/images/heroimg.png"
-            alt=""
-          />
-        </div>
-      </section>
-
-      <section className="text-center m-5 p-5">
-        <h1 className="text-black text-[80px] font-bold m-5">Our sponsors</h1>
-        <div className="flex justify-around items-center m-10 mt-10">
-          <img src="/images/Logo Apple.png" alt="" />
-          <img src="/images/Logo Microsoft.png" alt="" />
-          <img src="/images/Logo Stack.png" alt="" />
-          <img src="/images/Logo Google.png" alt="" />
-        </div>
-      </section>
-
-      <section className="flex justify-around items-center p-5 bg-[#222222] ">
-        <div className="w-1/3 flex justify-start items-center">
-          <img
-            className="h-[320.94px] w-[400px]"
-            src="/images/heroimg.png"
-            alt=""
-          />
-        </div>
-        <div className="flex flex-col gap-5 w-1/2">
-          <h1 className="text-[#38F881] text-[80px] font-bold">
-            Customise it to your needs
-          </h1>
-          <p className="text-white">
-            Customise the app with plugins, custom themes and multiple text
-            editors (Rich Text or Markdown). Or create your own scripts and
-            plugins using the Extension API..
-          </p>
-          <button className="bg-[#FF4040] rounded w-[150px] p-1">
-            Read more
-          </button>
-        </div>
-      </section>
-
-      <section>
-        <h1 className="text-5xl font-semibold text-center m-5">
-          What Our Clients Says
+      {/* Client Testimonials Section */}
+      <section className="p-10">
+        <h1 className="text-3xl md:text-5xl font-semibold text-center mb-10">
+          What Our Clients Say
         </h1>
-        <div className="flex justify-center">
+        <div className="grid md:grid-cols-3 gap-5">
           <CardLeft />
           <CardRight />
           <CardRight />
         </div>
       </section>
-
-     
-
-
-      
     </div>
   );
 };
